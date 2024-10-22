@@ -9,7 +9,7 @@ public class Peli777 {
 
         System.out.print("Syötä rahamäärä, jolla pelaat: ");
         int rahat = in.nextInt();
-        in.nextLine();  // Clear the newline character after nextInt()
+        in.nextLine();  
 
         while (rahat > 0) {
             System.out.println("Sinulla on " + rahat + " euroa.");
@@ -48,7 +48,7 @@ public class Peli777 {
                 break;
             }
 
-            System.out.println("Haluatko pelata uudestaan? Jos haluat, paina Enter. Jos et halua pelata, kirjoita 'e' ja paina Enter.");
+            System.out.println("Haluatko pelata uudestaan? Jos haluat, paina Enter. Jos et halua pelata, kirjoita 'e'");
             String vastaus = in.nextLine();  
 
             if (vastaus.equals("")) {
@@ -61,3 +61,9 @@ public class Peli777 {
         }
     }
 }
+
+
+
+// Hei, tässä on kommentti!
+
+
